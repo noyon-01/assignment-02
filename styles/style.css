@@ -245,7 +245,8 @@ nav ul li a {
 .about-section p {
   font-size: 16px;
   line-height: 20px;
-  padding: 0 455px;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .about-section p:nth-child(3) {
@@ -352,8 +353,66 @@ nav ul li a {
 }
 /*! choose section ends here !*/
 
-/*! header section starts here !*/
-/*! header section ends here !*/
+/*! featuard section starts here !*/
+.featured-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1a0b2e;
+    color: #ffffff;
+    padding: 120px 0;
+}
+
+.featured-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.episode-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    width: 790px;
+    margin: 0 auto;
+}
+
+.episode {
+    background-color: #250D44;
+    border-radius: 20px;
+}
+
+.episode iframe {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.episode h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 12px;
+}
+
+.episode p {
+font-size: 16px;
+}
+
+.episode-time {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.episode-time p {
+    color: #00ff88;
+}
+
+.episode-text {
+    padding: 24px;
+}
+/*! featuard section ends here !*/
 
 /*! header section starts here !*/
 /*! header section ends here !*/
