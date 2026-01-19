@@ -281,6 +281,75 @@ nav ul li a {
 /*! count section ends here !*/
 
 /*! choose section starts here !*/
+.choose-section {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #230e3d;
+  color: white;
+  padding-bottom: 120px;
+}
+
+.choose-section h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 100px 0 40px;
+}
+
+.choose-cards-section {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.choose-cards-section img {
+  width: 50px;
+}
+
+.choose-cards-section h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.choose-cards-section p {
+  font-size: 16px;
+}
+
+.choose-card {
+  background-color: rgba(17, 31, 101, 0.4);
+  padding: 42px 40px;
+  border-radius: 40px;
+}
+
+.choose-card-1 {
+  grid-column: span 1;
+  grid-row: span 2;
+  padding: 107px 40px;
+}
+
+.choose-card-2 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.choose-card-3 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.choose-card-4 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.choose-card-5 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
 /*! choose section ends here !*/
 
 /*! header section starts here !*/
