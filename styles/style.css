@@ -129,9 +129,24 @@ nav ul li a {
   background-position: center;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 95px;
+  position: relative;
+}
+
+.new-batch {
+    background-color: #00FF88;
+    color: #1a0b2e;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
 }
 
 .hero-text-section h1 {
@@ -355,70 +370,162 @@ nav ul li a {
 
 /*! featuard section starts here !*/
 .featured-section {
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: #1a0b2e;
-    color: #ffffff;
-    padding: 120px 0;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #1a0b2e;
+  color: #ffffff;
+  padding: 120px 0;
 }
 
 .featured-section h1 {
-    font-size: 48px;
-    font-weight: 700;
-    padding-bottom: 40px;
-    text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 .episode-section {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 30px;
-    width: 790px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  width: 790px;
+  margin: 0 auto;
 }
 
 .episode {
-    background-color: #250D44;
-    border-radius: 20px;
+  background-color: #250d44;
+  border-radius: 20px;
 }
 
 .episode iframe {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .episode h2 {
-    font-size: 24px;
-    font-weight: 700;
-    margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 12px;
 }
 
 .episode p {
-font-size: 16px;
+  font-size: 16px;
 }
 
 .episode-time {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
 }
 
 .episode-time p {
-    color: #00ff88;
+  color: #00ff88;
 }
 
 .episode-text {
-    padding: 24px;
+  padding: 24px;
 }
 /*! featuard section ends here !*/
 
-/*! header section starts here !*/
-/*! header section ends here !*/
+/*! host section starts here !*/
+.host-section {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #1a0b2e;
+  color: #ffffff;
+  padding-bottom: 120px;
+}
 
-/*! header section starts here !*/
-/*! header section ends here !*/
+.host-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
 
-/*! header section starts here !*/
-/*! header section ends here !*/
+.host-profile {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background-color: rgba(53, 17, 101, 0.4);
+  padding: 40px;
+  border-radius: 40px;
+}
+
+.host-information h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.host-information p {
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+.host-social-link {
+    display: flex;
+}
+
+.host-social-link div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #533C72;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/*! host section ends here !*/
+
+/*! footer section starts here !*/
+footer {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url(/assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.footer-content {
+    width: 710px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-content .footer-logo {
+    width: 350px;
+}
+
+.footer-icon .social-icon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 35px 0;
+}
+
+.social-icon div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-icon div a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social-icon div p {
+    font-size: 16px;
+}
+/*! footer section ends here !*/
